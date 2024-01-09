@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="cal-body">
+      <div class="input">
+        <input id="display" type="text" />
+      </div>
+      <div style="padding-top: 40px">
+        <div class="buttons">
+          <button onclick="inserisciNumero(1)">1</button>
+          <button onclick="inserisciNumero(2)">2</button>
+          <button onclick="inserisciNumero(3)">3</button>
+          <button onclick="inserisciOperatore('+')">+</button>
+        </div>
+        <div class="buttons">
+          <button onclick="inserisciNumero(4)">4</button>
+          <button onclick="inserisciNumero(5)">5</button>
+          <button onclick="inserisciNumero(6)">6</button>
+          <button onclick="inserisciOperatore('-')">-</button>
+        </div>
+        <div class="buttons">
+          <button onclick="inserisciNumero(7)">7</button>
+          <button onclick="inserisciNumero(8)">8</button>
+          <button onclick="inserisciNumero(9)">9</button>
+          <button onclick="inserisciOperatore('*')">*</button>
+        </div>
+        <div class="buttons">
+          <button onclick="inserisciOperatore('/')">/</button>
+          <button onclick="inserisciNumero(0)">0</button>
+          <button onclick="calcola()">=</button>
+          <button onclick="cancella()">C</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
